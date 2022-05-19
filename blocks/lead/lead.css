@@ -1,0 +1,9 @@
+.lead {
+position: relative;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+height: 962px;
+width: 928px;
+padding: 48px 48px 0;
+}

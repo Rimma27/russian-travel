@@ -1,14 +1,9 @@
 .place__paragraph {
-  width: 456px;
-  min-height: 116px;
-  max-height: 377px;
-  margin: 0 0 27px;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-}
-.place__paragraph:last-child {
-  margin-bottom: auto; 
+  margin-top: 0;
+  margin-bottom: 26px;
 }

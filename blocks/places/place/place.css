@@ -1,9 +1,13 @@
 .place {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 928px;
-    height: 640px;
+    max-width: 984px;
     margin: 0 48px 80px;
-    list-style: none;
+    display: grid;
+    column-gap: 40px;
+    row-gap: 48px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-areas: 
+    "title website"
+    "image paragraphs"
 }

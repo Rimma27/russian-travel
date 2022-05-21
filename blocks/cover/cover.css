@@ -2,9 +2,10 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  min-height: 740px;
   padding: 0 48px 0;
   background-image: url(../../sprint-3-images/cover-trains.jpg);
-  background-size: 1184px 740px;
+  background-size: calc(100% - 48px - 48px);
   background-position: bottom;
   background-repeat: no-repeat;
   z-index: 1;

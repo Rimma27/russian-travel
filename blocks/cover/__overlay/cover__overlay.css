@@ -1,7 +1,7 @@
 .cover__overlay {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: calc(100% - 48px - 48px);
   top: 0;
   background-color: #2a2c2f;
   opacity: 0.3;
@@ -9,4 +9,9 @@
 }
 .cover__overlay:hover {
   opacity: 0.8;
+}
+@media screen and (max-width: 1279px) {
+  .cover__overlay{
+  width: 100%;
+  }
 }
